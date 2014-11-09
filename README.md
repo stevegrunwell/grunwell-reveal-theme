@@ -6,7 +6,7 @@ This is my custom theme for [Reveal.js](https://github.com/hakimel/reveal.js). I
 
 1. Start a new Reveal.js project, using the [Reveal.js generator documentation](https://github.com/slara/generator-reveal#revealjs-generator) documentation as a guide.
 
-2. Once installed, run `bower install https://github.com/stevegrunwell/grunwell-reveal-theme.git` to download this theme into your presentation.
+2. Once installed, run `bower install https://github.com/stevegrunwell/grunwell-reveal-theme.git --save` to download this theme into your presentation.
 
 3. Load the theme in css/source/theme.scss. You can also lose a lot of the default theme as well to save on loading time; the important elements are:
 
