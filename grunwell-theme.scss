@@ -123,6 +123,7 @@ $selectionColor: #fff;
     img {
       max-width: 100%;
       margin: 0 auto 1em;
+      max-height: 600px;
     }
   }
   .caption {
@@ -133,7 +134,9 @@ $selectionColor: #fff;
 }
 
 .comparison-list {
-  text-align: center;
+  &, p, li {
+    text-align: center;
+  }
   h3 {
     margin-bottom: 1.7em;
     font-size: 1.1em;
